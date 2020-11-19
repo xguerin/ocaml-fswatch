@@ -5,4 +5,4 @@
   (libraries threads)
   (c_names stub)
   (c_flags (-I/usr/local/include/libfswatch/c -I/usr/include/libfswatch/c))
-  (c_library_flags (-lfswatch)))
+  (c_library_flags (-L/usr/local/lib -L/usr/lib -lfswatch)))
